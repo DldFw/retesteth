@@ -74,6 +74,7 @@ protected:
     // Debug
     string m_dataRawPreview;  // Attached data raw preview before code compilation
     string m_dataLabel;       // Attached data Label from filler
+    spFH20 m_sender;          // Sender address
 
     // Optimization
     spFH32 m_hash;
