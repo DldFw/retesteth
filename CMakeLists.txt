@@ -19,17 +19,17 @@ set(VERSION_SUFFIX "difficulty")
 
 set(Boost_USE_STATIC_LIBS ON)
 set(Boost_USE_MULTITHREADED ON)
-hunter_add_package(Boost COMPONENTS filesystem program_options system)
+#hunter_add_package(Boost COMPONENTS filesystem program_options system)
 find_package(Boost CONFIG REQUIRED filesystem program_options system)
 
-hunter_add_package(yaml-cpp)
+#hunter_add_package(yaml-cpp)
 find_package(yaml-cpp CONFIG REQUIRED)
-hunter_add_package(cryptopp)
-find_package(cryptopp CONFIG REQUIRED)
-hunter_add_package(libscrypt)
-find_package(libscrypt CONFIG REQUIRED)
-hunter_add_package(CURL)
-find_package(CURL CONFIG REQUIRED)
+#hunter_add_package(cryptopp)
+#find_package(cryptopp CONFIG REQUIRED)
+#hunter_add_package(libscrypt)
+#find_package(libscrypt CONFIG REQUIRED)
+#hunter_add_package(CURL)
+#find_package(CURL CONFIG REQUIRED)
 
 
 #Cmake files configuration
